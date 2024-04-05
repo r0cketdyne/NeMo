@@ -524,7 +524,6 @@ class EncDecSpeakerLabelModel(ModelPT, ExportableEncDecModel):
         segment_starts = []
         segment_ends = []    
         
-        epsilon = 1e-10
         np.random.seed(random_seed)
 
         if segments_in_audio <= 1:
